@@ -1,0 +1,452 @@
+[
+  {
+    "id": "2507.23773v1",
+    "title": "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model",
+    "authors": [
+      "Mingkai Deng",
+      "Jinyu Hou",
+      "Yilin Shen",
+      "Hongxia Jin",
+      "Graham Neubig",
+      "Zhiting Hu",
+      "Eric Xing"
+    ],
+    "published": "2025-07-31T17:57:20+00:00",
+    "summary": "AI agents built on large language models (LLMs) hold enormous promise, but\ncurrent practice focuses on a one-task-one-agent approach, which not only falls\nshort of scalability and generality, but also suffers from the fundamental\nlimitations of autoregressive LLMs. On the other hand, humans are general\nagents who reason by mentally simulating the outcomes of their actions and\nplans. Moving towards a more general and powerful AI agent, we introduce\nSimuRA, a goal-oriented architecture for generalized agentic reasoning. Based\non a principled formulation of optimal agent in any environment, \\modelname\novercomes the limitations of autoregressive reasoning by introducing a world\nmodel for planning via simulation. The generalized world model is implemented\nusing LLM, which can flexibly plan in a wide range of environments using the\nconcept-rich latent space of natural language. Experiments on difficult web\nbrowsing tasks show that \\modelname improves the success of flight search from\n0\\% to 32.2\\%. World-model-based planning, in particular, shows consistent\nadvantage of up to 124\\% over autoregressive planning, demonstrating the\nadvantage of world model simulation as a reasoning paradigm. We are excited\nabout the possibility for training a single, general agent model based on LLMs\nthat can act superintelligently in all environments. To start, we make SimuRA,\na web-browsing agent built on \\modelname with pretrained LLMs, available as a\nresearch demo for public testing.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23773v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23773v1.pdf"
+  },
+  {
+    "id": "2507.23735v1",
+    "title": "Distributed AI Agents for Cognitive Underwater Robot Autonomy",
+    "authors": [
+      "Markus Buchholz",
+      "Ignacio Carlucho",
+      "Michele Grimaldi",
+      "Yvan R. Petillot"
+    ],
+    "published": "2025-07-31T17:18:55+00:00",
+    "summary": "Achieving robust cognitive autonomy in robots navigating complex,\nunpredictable environments remains a fundamental challenge in robotics. This\npaper presents Underwater Robot Self-Organizing Autonomy (UROSA), a\ngroundbreaking architecture leveraging distributed Large Language Model AI\nagents integrated within the Robot Operating System 2 (ROS 2) framework to\nenable advanced cognitive capabilities in Autonomous Underwater Vehicles. UROSA\ndecentralises cognition into specialised AI agents responsible for multimodal\nperception, adaptive reasoning, dynamic mission planning, and real-time\ndecision-making. Central innovations include flexible agents dynamically\nadapting their roles, retrieval-augmented generation utilising vector databases\nfor efficient knowledge management, reinforcement learning-driven behavioural\noptimisation, and autonomous on-the-fly ROS 2 node generation for runtime\nfunctional extensibility. Extensive empirical validation demonstrates UROSA's\npromising adaptability and reliability through realistic underwater missions in\nsimulation and real-world deployments, showing significant advantages over\ntraditional rule-based architectures in handling unforeseen scenarios,\nenvironmental uncertainties, and novel mission objectives. This work not only\nadvances underwater autonomy but also establishes a scalable, safe, and\nversatile cognitive robotics framework capable of generalising to a diverse\narray of real-world applications.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23735v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23735v1.pdf"
+  },
+  {
+    "id": "2507.23734v1",
+    "title": "RAGNet: Large-scale Reasoning-based Affordance Segmentation Benchmark towards General Grasping",
+    "authors": [
+      "Dongming Wu",
+      "Yanping Fu",
+      "Saike Huang",
+      "Yingfei Liu",
+      "Fan Jia",
+      "Nian Liu",
+      "Feng Dai",
+      "Tiancai Wang",
+      "Rao Muhammad Anwer",
+      "Fahad Shahbaz Khan",
+      "Jianbing Shen"
+    ],
+    "published": "2025-07-31T17:17:05+00:00",
+    "summary": "General robotic grasping systems require accurate object affordance\nperception in diverse open-world scenarios following human instructions.\nHowever, current studies suffer from the problem of lacking reasoning-based\nlarge-scale affordance prediction data, leading to considerable concern about\nopen-world effectiveness. To address this limitation, we build a large-scale\ngrasping-oriented affordance segmentation benchmark with human-like\ninstructions, named RAGNet. It contains 273k images, 180 categories, and 26k\nreasoning instructions. The images cover diverse embodied data domains, such as\nwild, robot, ego-centric, and even simulation data. They are carefully\nannotated with an affordance map, while the difficulty of language instructions\nis largely increased by removing their category name and only providing\nfunctional descriptions. Furthermore, we propose a comprehensive\naffordance-based grasping framework, named AffordanceNet, which consists of a\nVLM pre-trained on our massive affordance data and a grasping network that\nconditions an affordance map to grasp the target. Extensive experiments on\naffordance segmentation benchmarks and real-robot manipulation tasks show that\nour model has a powerful open-world generalization ability. Our data and code\nis available at https://github.com/wudongming97/AffordanceNet.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23734v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23734v1.pdf"
+  },
+  {
+    "id": "2507.23719v1",
+    "title": "Design of a bioinspired robophysical antenna for insect-scale tactile perception and navigation",
+    "authors": [
+      "Parker McDonnell",
+      "Lingsheng Meng",
+      "Hari Krishna Hariprasad",
+      "Alexander Hedrick",
+      "Eduardo Miscles",
+      "Samuel Gilinsky",
+      "Jean-Michel Mongeau",
+      "Kaushik Jayaram"
+    ],
+    "published": "2025-07-31T16:53:54+00:00",
+    "summary": "The American cockroach (Periplaneta americana) uses its soft antennae to\nguide decision making by extracting rich tactile information from tens of\nthousands of distributed mechanosensors. Although tactile sensors enable\nrobust, autonomous perception and navigation in natural systems, replicating\nthese capabilities in insect-scale robots remains challenging due to stringent\nsize, weight, and power constraints that limit existing sensor technologies. To\novercome these limitations, we introduce CITRAS (Cockroach Inspired Tactile\nRobotic Antenna Sensor), a bioinspired, multi-segmented, compliant laminate\nsensor with embedded capacitive angle sensors. CITRAS is compact (73.7x15.6x2.1\nmm), lightweight (491 mg), and low-power (32 mW), enabling seamless integration\nwith miniature robotic platforms. The segmented compliant structure passively\nbends in response to environmental stimuli, achieving accurate hinge angle\nmeasurements with maximum errors of just 0.79 degree (quasistatic bending) and\n3.58 degree (dynamic bending). Experimental evaluations demonstrate CITRAS'\nmultifunctional tactile perception capabilities: predicting base-to-tip\ndistances with 7.75 % error, estimating environmental gap widths with 6.73 %\nerror, and distinguishing surface textures through differential sensor\nresponse. The future integration of this bioinspired tactile antenna in\ninsect-scale robots addresses critical sensing gaps, promising enhanced\nautonomous exploration, obstacle avoidance, and environmental mapping in\ncomplex, confined environments.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23719v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23719v1.pdf"
+  },
+  {
+    "id": "2507.23698v1",
+    "title": "Scalable Multi-Task Reinforcement Learning for Generalizable Spatial Intelligence in Visuomotor Agents",
+    "authors": [
+      "Shaofei Cai",
+      "Zhancun Mu",
+      "Haiwen Xia",
+      "Bowei Zhang",
+      "Anji Liu",
+      "Yitao Liang"
+    ],
+    "published": "2025-07-31T16:20:02+00:00",
+    "summary": "While Reinforcement Learning (RL) has achieved remarkable success in language\nmodeling, its triumph hasn't yet fully translated to visuomotor agents. A\nprimary challenge in RL models is their tendency to overfit specific tasks or\nenvironments, thereby hindering the acquisition of generalizable behaviors\nacross diverse settings. This paper provides a preliminary answer to this\nchallenge by demonstrating that RL-finetuned visuomotor agents in Minecraft can\nachieve zero-shot generalization to unseen worlds. Specifically, we explore\nRL's potential to enhance generalizable spatial reasoning and interaction\ncapabilities in 3D worlds. To address challenges in multi-task RL\nrepresentation, we analyze and establish cross-view goal specification as a\nunified multi-task goal space for visuomotor policies. Furthermore, to overcome\nthe significant bottleneck of manual task design, we propose automated task\nsynthesis within the highly customizable Minecraft environment for large-scale\nmulti-task RL training, and we construct an efficient distributed RL framework\nto support this. Experimental results show RL significantly boosts interaction\nsuccess rates by $4\\times$ and enables zero-shot generalization of spatial\nreasoning across diverse environments, including real-world settings. Our\nfindings underscore the immense potential of RL training in 3D simulated\nenvironments, especially those amenable to large-scale task generation, for\nsignificantly advancing visuomotor agents' spatial reasoning.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23698v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23698v1.pdf"
+  },
+  {
+    "id": "2507.23682v1",
+    "title": "villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models",
+    "authors": [
+      "Xiaoyu Chen",
+      "Hangxing Wei",
+      "Pushi Zhang",
+      "Chuheng Zhang",
+      "Kaixin Wang",
+      "Yanjiang Guo",
+      "Rushuai Yang",
+      "Yucen Wang",
+      "Xinquan Xiao",
+      "Li Zhao",
+      "Jianyu Chen",
+      "Jiang Bian"
+    ],
+    "published": "2025-07-31T15:57:46+00:00",
+    "summary": "Visual-Language-Action (VLA) models have emerged as a popular paradigm for\nlearning robot manipulation policies that can follow language instructions and\ngeneralize to novel scenarios. Recent work has begun to explore the\nincorporation of latent actions, an abstract representation of visual change\nbetween two frames, into VLA pre-training. In this paper, we introduce villa-X,\na novel Visual-Language-Latent-Action (ViLLA) framework that advances latent\naction modeling for learning generalizable robot manipulation policies. Our\napproach improves both how latent actions are learned and how they are\nincorporated into VLA pre-training. Together, these contributions enable\nvilla-X to achieve superior performance across simulated environments including\nSIMPLER and LIBERO, as well as on two real-world robot setups including gripper\nand dexterous hand manipulation. We believe the ViLLA paradigm holds\nsignificant promise, and that our villa-X provides a strong foundation for\nfuture research.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23682v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23682v1.pdf"
+  },
+  {
+    "id": "2507.23677v1",
+    "title": "Stereo 3D Gaussian Splatting SLAM for Outdoor Urban Scenes",
+    "authors": [
+      "Xiaohan Li",
+      "Ziren Gong",
+      "Fabio Tosi",
+      "Matteo Poggi",
+      "Stefano Mattoccia",
+      "Dong Liu",
+      "Jun Wu"
+    ],
+    "published": "2025-07-31T15:54:51+00:00",
+    "summary": "3D Gaussian Splatting (3DGS) has recently gained popularity in SLAM\napplications due to its fast rendering and high-fidelity representation.\nHowever, existing 3DGS-SLAM systems have predominantly focused on indoor\nenvironments and relied on active depth sensors, leaving a gap for large-scale\noutdoor applications. We present BGS-SLAM, the first binocular 3D Gaussian\nSplatting SLAM system designed for outdoor scenarios. Our approach uses only\nRGB stereo pairs without requiring LiDAR or active sensors. BGS-SLAM leverages\ndepth estimates from pre-trained deep stereo networks to guide 3D Gaussian\noptimization with a multi-loss strategy enhancing both geometric consistency\nand visual quality. Experiments on multiple datasets demonstrate that BGS-SLAM\nachieves superior tracking accuracy and mapping performance compared to other\n3DGS-based solutions in complex outdoor environments.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23677v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23677v1.pdf"
+  },
+  {
+    "id": "2507.23660v1",
+    "title": "DuLoc: Life-Long Dual-Layer Localization in Changing and Dynamic Expansive Scenarios",
+    "authors": [
+      "Haoxuan Jiang",
+      "Peicong Qian",
+      "Yusen Xie",
+      "Xiaocong Li",
+      "Ming Liu",
+      "Jun Ma"
+    ],
+    "published": "2025-07-31T15:38:50+00:00",
+    "summary": "LiDAR-based localization serves as a critical component in autonomous\nsystems, yet existing approaches face persistent challenges in balancing\nrepeatability, accuracy, and environmental adaptability. Traditional point\ncloud registration methods relying solely on offline maps often exhibit limited\nrobustness against long-term environmental changes, leading to localization\ndrift and reliability degradation in dynamic real-world scenarios. To address\nthese challenges, this paper proposes DuLoc, a robust and accurate localization\nmethod that tightly couples LiDAR-inertial odometry with offline map-based\nlocalization, incorporating a constant-velocity motion model to mitigate\noutlier noise in real-world scenarios. Specifically, we develop a LiDAR-based\nlocalization framework that seamlessly integrates a prior global map with\ndynamic real-time local maps, enabling robust localization in unbounded and\nchanging environments. Extensive real-world experiments in ultra unbounded port\nthat involve 2,856 hours of operational data across 32 Intelligent Guided\nVehicles (IGVs) are conducted and reported in this study. The results attained\ndemonstrate that our system outperforms other state-of-the-art LiDAR\nlocalization systems in large-scale changing outdoor environments.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23660v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23660v1.pdf"
+  },
+  {
+    "id": "2507.23629v1",
+    "title": "DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar EquippedUnderwater Robot Teams with Object Graph Matching",
+    "authors": [
+      "Yewei Huang",
+      "John McConnell",
+      "Xi Lin",
+      "Brendan Englot"
+    ],
+    "published": "2025-07-31T15:08:50+00:00",
+    "summary": "We present DRACo-SLAM2, a distributed SLAM framework for underwater robot\nteams equipped with multibeam imaging sonar. This framework improves upon the\noriginal DRACo-SLAM by introducing a novel representation of sonar maps as\nobject graphs and utilizing object graph matching to achieve time-efficient\ninter-robot loop closure detection without relying on prior geometric\ninformation. To better-accommodate the needs and characteristics of underwater\nscan matching, we propose incremental Group-wise Consistent Measurement Set\nMaximization (GCM), a modification of Pairwise Consistent Measurement Set\nMaximization (PCM), which effectively handles scenarios where nearby\ninter-robot loop closures share similar registration errors. The proposed\napproach is validated through extensive comparative analyses on simulated and\nreal-world datasets.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23629v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23629v1.pdf"
+  },
+  {
+    "id": "2507.23592v1",
+    "title": "Human-Exoskeleton Kinematic Calibration to Improve Hand Tracking for Dexterous Teleoperation",
+    "authors": [
+      "Haiyun Zhang",
+      "Stefano Dalla Gasperina",
+      "Saad N. Yousaf",
+      "Toshimitsu Tsuboi",
+      "Tetsuya Narita",
+      "Ashish D. Deshpande"
+    ],
+    "published": "2025-07-31T14:29:38+00:00",
+    "summary": "Hand exoskeletons are critical tools for dexterous teleoperation and\nimmersive manipulation interfaces, but achieving accurate hand tracking remains\na challenge due to user-specific anatomical variability and donning\ninconsistencies. These issues lead to kinematic misalignments that degrade\ntracking performance and limit applicability in precision tasks. We propose a\nsubject-specific calibration framework for exoskeleton-based hand tracking that\nuses redundant joint sensing and a residual-weighted optimization strategy to\nestimate virtual link parameters. Implemented on the Maestro exoskeleton, our\nmethod improves joint angle and fingertip position estimation across users with\nvarying hand geometries. We introduce a data-driven approach to empirically\ntune cost function weights using motion capture ground truth, enabling more\naccurate and consistent calibration across participants. Quantitative results\nfrom seven subjects show substantial reductions in joint and fingertip tracking\nerrors compared to uncalibrated and evenly weighted models. Qualitative\nvisualizations using a Unity-based virtual hand further confirm improvements in\nmotion fidelity. The proposed framework generalizes across exoskeleton designs\nwith closed-loop kinematics and minimal sensing, and lays the foundation for\nhigh-fidelity teleoperation and learning-from-demonstration applications.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23592v1",
+    "categories": [
+      "cs.RO",
+      "cs.HC",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23592v1.pdf"
+  },
+  {
+    "id": "2507.23784v1",
+    "title": "SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions",
+    "authors": [
+      "Jessica Bader",
+      "Leander Girrbach",
+      "Stephan Alaniz",
+      "Zeynep Akata"
+    ],
+    "published": "2025-07-31T17:59:40+00:00",
+    "summary": "Concept Bottleneck Models (CBMs) and other concept-based interpretable models\nshow great promise for making AI applications more transparent, which is\nessential in fields like medicine. Despite their success, we demonstrate that\nCBMs struggle to reliably identify the correct concepts under distribution\nshifts. To assess the robustness of CBMs to concept variations, we introduce\nSUB: a fine-grained image and concept benchmark containing 38,400 synthetic\nimages based on the CUB dataset. To create SUB, we select a CUB subset of 33\nbird classes and 45 concepts to generate images which substitute a specific\nconcept, such as wing color or belly pattern. We introduce a novel Tied\nDiffusion Guidance (TDG) method to precisely control generated images, where\nnoise sharing for two parallel denoising processes ensures that both the\ncorrect bird class and the correct attribute are generated. This novel\nbenchmark enables rigorous evaluation of CBMs and similar interpretable models,\ncontributing to the development of more robust methods. Our code is available\nat https://github.com/ExplainableML/sub and the dataset at\nhttp://huggingface.co/datasets/Jessica-bader/SUB.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23784v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23784v1.pdf"
+  },
+  {
+    "id": "2507.23779v1",
+    "title": "Phi-Ground Tech Report: Advancing Perception in GUI Grounding",
+    "authors": [
+      "Miaosen Zhang",
+      "Ziqiang Xu",
+      "Jialiang Zhu",
+      "Qi Dai",
+      "Kai Qiu",
+      "Yifan Yang",
+      "Chong Luo",
+      "Tianyi Chen",
+      "Justin Wagle",
+      "Tim Franklin",
+      "Baining Guo"
+    ],
+    "published": "2025-07-31T17:59:09+00:00",
+    "summary": "With the development of multimodal reasoning models, Computer Use Agents\n(CUAs), akin to Jarvis from \\textit{\"Iron Man\"}, are becoming a reality. GUI\ngrounding is a core component for CUAs to execute actual actions, similar to\nmechanical control in robotics, and it directly leads to the success or failure\nof the system. It determines actions such as clicking and typing, as well as\nrelated parameters like the coordinates for clicks. Current end-to-end\ngrounding models still achieve less than 65\\% accuracy on challenging\nbenchmarks like ScreenSpot-pro and UI-Vision, indicating they are far from\nbeing ready for deployment. % , as a single misclick can result in unacceptable\nconsequences. In this work, we conduct an empirical study on the training of\ngrounding models, examining details from data collection to model training.\nUltimately, we developed the \\textbf{Phi-Ground} model family, which achieves\nstate-of-the-art performance across all five grounding benchmarks for models\nunder $10B$ parameters in agent settings. In the end-to-end model setting, our\nmodel still achieves SOTA results with scores of \\textit{\\textbf{43.2}} on\nScreenSpot-pro and \\textit{\\textbf{27.2}} on UI-Vision. We believe that the\nvarious details discussed in this paper, along with our successes and failures,\nnot only clarify the construction of grounding models but also benefit other\nperception tasks. Project homepage:\n\\href{https://zhangmiaosen2000.github.io/Phi-Ground/}{https://zhangmiaosen2000.github.io/Phi-Ground/}",
+    "pdf_url": "http://arxiv.org/pdf/2507.23779v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.MM"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23779v1.pdf"
+  },
+  {
+    "id": "2507.23773v1",
+    "title": "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model",
+    "authors": [
+      "Mingkai Deng",
+      "Jinyu Hou",
+      "Yilin Shen",
+      "Hongxia Jin",
+      "Graham Neubig",
+      "Zhiting Hu",
+      "Eric Xing"
+    ],
+    "published": "2025-07-31T17:57:20+00:00",
+    "summary": "AI agents built on large language models (LLMs) hold enormous promise, but\ncurrent practice focuses on a one-task-one-agent approach, which not only falls\nshort of scalability and generality, but also suffers from the fundamental\nlimitations of autoregressive LLMs. On the other hand, humans are general\nagents who reason by mentally simulating the outcomes of their actions and\nplans. Moving towards a more general and powerful AI agent, we introduce\nSimuRA, a goal-oriented architecture for generalized agentic reasoning. Based\non a principled formulation of optimal agent in any environment, \\modelname\novercomes the limitations of autoregressive reasoning by introducing a world\nmodel for planning via simulation. The generalized world model is implemented\nusing LLM, which can flexibly plan in a wide range of environments using the\nconcept-rich latent space of natural language. Experiments on difficult web\nbrowsing tasks show that \\modelname improves the success of flight search from\n0\\% to 32.2\\%. World-model-based planning, in particular, shows consistent\nadvantage of up to 124\\% over autoregressive planning, demonstrating the\nadvantage of world model simulation as a reasoning paradigm. We are excited\nabout the possibility for training a single, general agent model based on LLMs\nthat can act superintelligently in all environments. To start, we make SimuRA,\na web-browsing agent built on \\modelname with pretrained LLMs, available as a\nresearch demo for public testing.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23773v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23773v1.pdf"
+  },
+  {
+    "id": "2507.23771v1",
+    "title": "Consensus-Driven Active Model Selection",
+    "authors": [
+      "Justin Kay",
+      "Grant Van Horn",
+      "Subhransu Maji",
+      "Daniel Sheldon",
+      "Sara Beery"
+    ],
+    "published": "2025-07-31T17:56:28+00:00",
+    "summary": "The widespread availability of off-the-shelf machine learning models poses a\nchallenge: which model, of the many available candidates, should be chosen for\na given data analysis task? This question of model selection is traditionally\nanswered by collecting and annotating a validation dataset -- a costly and\ntime-intensive process. We propose a method for active model selection, using\npredictions from candidate models to prioritize the labeling of test data\npoints that efficiently differentiate the best candidate. Our method, CODA,\nperforms consensus-driven active model selection by modeling relationships\nbetween classifiers, categories, and data points within a probabilistic\nframework. The framework uses the consensus and disagreement between models in\nthe candidate pool to guide the label acquisition process, and Bayesian\ninference to update beliefs about which model is best as more information is\ncollected. We validate our approach by curating a collection of 26 benchmark\ntasks capturing a range of model selection scenarios. CODA outperforms existing\nmethods for active model selection significantly, reducing the annotation\neffort required to discover the best model by upwards of 70% compared to the\nprevious state-of-the-art. Code and data are available at\nhttps://github.com/justinkay/coda.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23771v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23771v1.pdf"
+  },
+  {
+    "id": "2507.23751v1",
+    "title": "CoT-Self-Instruct: Building high-quality synthetic prompts for reasoning and non-reasoning tasks",
+    "authors": [
+      "Ping Yu",
+      "Jack Lanchantin",
+      "Tianlu Wang",
+      "Weizhe Yuan",
+      "Olga Golovneva",
+      "Ilia Kulikov",
+      "Sainbayar Sukhbaatar",
+      "Jason Weston",
+      "Jing Xu"
+    ],
+    "published": "2025-07-31T17:38:50+00:00",
+    "summary": "We propose CoT-Self-Instruct, a synthetic data generation method that\ninstructs LLMs to first reason and plan via Chain-of-Thought (CoT) based on the\ngiven seed tasks, and then to generate a new synthetic prompt of similar\nquality and complexity for use in LLM training, followed by filtering for\nhigh-quality data with automatic metrics. In verifiable reasoning, our\nsynthetic data significantly outperforms existing training datasets, such as\ns1k and OpenMathReasoning, across MATH500, AMC23, AIME24 and GPQA-Diamond. For\nnon-verifiable instruction-following tasks, our method surpasses the\nperformance of human or standard self-instruct prompts on both AlpacaEval 2.0\nand Arena-Hard.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23751v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23751v1.pdf"
+  },
+  {
+    "id": "2507.23740v1",
+    "title": "Rule2Text: Natural Language Explanation of Logical Rules in Knowledge Graphs",
+    "authors": [
+      "Nasim Shirvani-Mahdavi",
+      "Devin Wingfield",
+      "Amin Ghasemi",
+      "Chengkai Li"
+    ],
+    "published": "2025-07-31T17:24:04+00:00",
+    "summary": "Knowledge graphs (KGs) often contain sufficient information to support the\ninference of new facts. Identifying logical rules not only improves the\ncompleteness of a knowledge graph but also enables the detection of potential\nerrors, reveals subtle data patterns, and enhances the overall capacity for\nreasoning and interpretation. However, the complexity of such rules, combined\nwith the unique labeling conventions of each KG, can make them difficult for\nhumans to understand. In this paper, we explore the potential of large language\nmodels to generate natural language explanations for logical rules.\nSpecifically, we extract logical rules using the AMIE 3.5.1 rule discovery\nalgorithm from the benchmark dataset FB15k-237 and two large-scale datasets,\nFB-CVT-REV and FB+CVT-REV. We examine various prompting strategies, including\nzero- and few-shot prompting, including variable entity types, and\nchain-of-thought reasoning. We conduct a comprehensive human evaluation of the\ngenerated explanations based on correctness, clarity, and hallucination, and\nalso assess the use of large language models as automatic judges. Our results\ndemonstrate promising performance in terms of explanation correctness and\nclarity, although several challenges remain for future research. All scripts\nand data used in this study are publicly available at\nhttps://github.com/idirlab/KGRule2NL}{https://github.com/idirlab/KGRule2NL.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23740v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23740v1.pdf"
+  },
+  {
+    "id": "2507.23735v1",
+    "title": "Distributed AI Agents for Cognitive Underwater Robot Autonomy",
+    "authors": [
+      "Markus Buchholz",
+      "Ignacio Carlucho",
+      "Michele Grimaldi",
+      "Yvan R. Petillot"
+    ],
+    "published": "2025-07-31T17:18:55+00:00",
+    "summary": "Achieving robust cognitive autonomy in robots navigating complex,\nunpredictable environments remains a fundamental challenge in robotics. This\npaper presents Underwater Robot Self-Organizing Autonomy (UROSA), a\ngroundbreaking architecture leveraging distributed Large Language Model AI\nagents integrated within the Robot Operating System 2 (ROS 2) framework to\nenable advanced cognitive capabilities in Autonomous Underwater Vehicles. UROSA\ndecentralises cognition into specialised AI agents responsible for multimodal\nperception, adaptive reasoning, dynamic mission planning, and real-time\ndecision-making. Central innovations include flexible agents dynamically\nadapting their roles, retrieval-augmented generation utilising vector databases\nfor efficient knowledge management, reinforcement learning-driven behavioural\noptimisation, and autonomous on-the-fly ROS 2 node generation for runtime\nfunctional extensibility. Extensive empirical validation demonstrates UROSA's\npromising adaptability and reliability through realistic underwater missions in\nsimulation and real-world deployments, showing significant advantages over\ntraditional rule-based architectures in handling unforeseen scenarios,\nenvironmental uncertainties, and novel mission objectives. This work not only\nadvances underwater autonomy but also establishes a scalable, safe, and\nversatile cognitive robotics framework capable of generalising to a diverse\narray of real-world applications.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23735v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23735v1.pdf"
+  },
+  {
+    "id": "2507.23726v1",
+    "title": "Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving",
+    "authors": [
+      "Luoxin Chen",
+      "Jinming Gu",
+      "Liankai Huang",
+      "Wenhao Huang",
+      "Zhicheng Jiang",
+      "Allan Jie",
+      "Xiaoran Jin",
+      "Xing Jin",
+      "Chenggang Li",
+      "Kaijing Ma",
+      "Cheng Ren",
+      "Jiawei Shen",
+      "Wenlei Shi",
+      "Tong Sun",
+      "He Sun",
+      "Jiahui Wang",
+      "Siran Wang",
+      "Zhihong Wang",
+      "Chenrui Wei",
+      "Shufa Wei",
+      "Yonghui Wu",
+      "Yuchen Wu",
+      "Yihang Xia",
+      "Huajian Xin",
+      "Fan Yang",
+      "Huaiyuan Ying",
+      "Hongyi Yuan",
+      "Zheng Yuan",
+      "Tianyang Zhan",
+      "Chi Zhang",
+      "Yue Zhang",
+      "Ge Zhang",
+      "Tianyun Zhao",
+      "Jianqiu Zhao",
+      "Yichi Zhou",
+      "Thomas Hanwen Zhu"
+    ],
+    "published": "2025-07-31T17:00:30+00:00",
+    "summary": "LLMs have demonstrated strong mathematical reasoning abilities by leveraging\nreinforcement learning with long chain-of-thought, yet they continue to\nstruggle with theorem proving due to the lack of clear supervision signals when\nsolely using natural language. Dedicated domain-specific languages like Lean\nprovide clear supervision via formal verification of proofs, enabling effective\ntraining through reinforcement learning. In this work, we propose\n\\textbf{Seed-Prover}, a lemma-style whole-proof reasoning model. Seed-Prover\ncan iteratively refine its proof based on Lean feedback, proved lemmas, and\nself-summarization. To solve IMO-level contest problems, we design three\ntest-time inference strategies that enable both deep and broad reasoning.\nSeed-Prover proves $78.1\\%$ of formalized past IMO problems, saturates MiniF2F,\nand achieves over 50\\% on PutnamBench, outperforming the previous\nstate-of-the-art by a large margin. To address the lack of geometry support in\nLean, we introduce a geometry reasoning engine \\textbf{Seed-Geometry}, which\noutperforms previous formal geometry engines. We use these two systems to\nparticipate in IMO 2025 and fully prove 5 out of 6 problems. This work\nrepresents a significant advancement in automated mathematical reasoning,\ndemonstrating the effectiveness of formal verification with long\nchain-of-thought reasoning.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23726v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23726v1.pdf"
+  },
+  {
+    "id": "2507.23704v1",
+    "title": "Enhanced Velocity Field Modeling for Gaussian Video Reconstruction",
+    "authors": [
+      "Zhenyang Li",
+      "Xiaoyang Bai",
+      "Tongchen Zhang",
+      "Pengfei Shen",
+      "Weiwei Xu",
+      "Yifan Peng"
+    ],
+    "published": "2025-07-31T16:26:22+00:00",
+    "summary": "High-fidelity 3D video reconstruction is essential for enabling real-time\nrendering of dynamic scenes with realistic motion in virtual and augmented\nreality (VR/AR). The deformation field paradigm of 3D Gaussian splatting has\nachieved near-photorealistic results in video reconstruction due to the great\nrepresentation capability of deep deformation networks. However, in videos with\ncomplex motion and significant scale variations, deformation networks often\noverfit to irregular Gaussian trajectories, leading to suboptimal visual\nquality. Moreover, the gradient-based densification strategy designed for\nstatic scene reconstruction proves inadequate to address the absence of dynamic\ncontent. In light of these challenges, we propose a flow-empowered velocity\nfield modeling scheme tailored for Gaussian video reconstruction, dubbed\nFlowGaussian-VR. It consists of two core components: a velocity field rendering\n(VFR) pipeline which enables optical flow-based optimization, and a\nflow-assisted adaptive densification (FAD) strategy that adjusts the number and\nsize of Gaussians in dynamic regions. We validate our model's effectiveness on\nmulti-view dynamic reconstruction and novel view synthesis with multiple\nreal-world datasets containing challenging motion scenarios, demonstrating not\nonly notable visual improvements (over 2.5 dB gain in PSNR) and less blurry\nartifacts in dynamic textures, but also regularized and trackable per-Gaussian\ntrajectories.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23704v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23704v1.pdf"
+  },
+  {
+    "id": "2507.23701v1",
+    "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
+    "authors": [
+      "Long Phan",
+      "Mantas Mazeika",
+      "Andy Zou",
+      "Dan Hendrycks"
+    ],
+    "published": "2025-07-31T16:22:55+00:00",
+    "summary": "Evaluating AI agents within complex, interactive environments that mirror\nreal-world challenges is critical for understanding their practical\ncapabilities. While existing agent benchmarks effectively assess skills like\ntool use or performance on structured tasks, they often do not fully capture an\nagent's ability to operate autonomously in exploratory environments that demand\nsustained, self-directed reasoning over a long and growing context. To spur the\ndevelopment of agents capable of more robust intrinsic reasoning over long\nhorizons, we introduce TextQuests, a benchmark based on the Infocom suite of\ninteractive fiction games. These text-based adventures, which can take human\nplayers over 30 hours and require hundreds of precise actions to solve, serve\nas an effective proxy for evaluating AI agents on focused, stateful tasks. The\nbenchmark is specifically designed to assess an LLM agent's capacity for\nself-contained problem-solving by precluding the use of external tools, thereby\nfocusing on intrinsic long-context reasoning capabilities in an exploratory\nenvironment characterized by the need for trial-and-error learning and\nsustained problem-solving within a single interactive session. We release\nTextQuests at https://textquests.ai.",
+    "pdf_url": "http://arxiv.org/pdf/2507.23701v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_path": "/Users/iremsusavas/Desktop/llm/data/raw/pdfs/2507.23701v1.pdf"
+  }
+]

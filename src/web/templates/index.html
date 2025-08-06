@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Scientific Q&A</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2rem;
+      background: #f4f4f9;
+      color: #333;
+    }
+    h1 {
+      color: #1e1e2f;
+      margin-bottom: 1rem;
+    }
+    textarea {
+      width: 100%;
+      height: 120px;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #0057d9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0041aa;
+    }
+    .answer-box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      margin-top: 2rem;
+    }
+    .reasoning {
+      background: #eef4ff;
+      padding: 1rem;
+      border-left: 4px solid #0057d9;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+    .reasoning h4 {
+      margin-top: 0;
+    }
+    .reasoning p {
+      margin: 0.5rem 0;
+    }
+    .final-answer {
+      background: #d6f5e3;
+      padding: 1rem;
+      border-left: 4px solid #2b8e60;
+      border-radius: 6px;
+    }
+    .citations {
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    .citations ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1> Ask a Scientific Question</h1>
+
+  <form method="post">
+    <textarea name="query" placeholder="e.g. How do LLMs simulate multi-step reasoning?" required>{{ query or '' }}</textarea>
+    <br>
+    <button type="submit">Ask </button>
+  </form>
+
+  {% if answer %}
+    <div class="answer-box">
+      <h3> Answer:</h3>
+
+      {% if '### Reasoning:' in answer and '### Final Answer:' in answer %}
+        <div class="reasoning">
+          <h4> Reasoning</h4>
+          <p>{{ answer.split('### Reasoning:')[1].split('### Final Answer:')[0] | safe }}</p>
+        </div>
+        <div class="final-answer">
+          <strong> Final Answer:</strong>
+          <p>{{ answer.split('### Final Answer:')[1] | safe }}</p>
+        </div>
+      {% else %}
+        <p>{{ answer | safe }}</p>
+      {% endif %}
+    </div>
+
+    <div class="citations">
+      <h4>📚 References:</h4>
+      <ul>
+        {% for c in citations %}
+          <li><a href="{{ c.link }}" target="_blank">{{ c.marker }} {{ c.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,13 @@
+arxiv
+pdfplumber
+sentence-transformers
+faiss-cpu       # eğer GPU yoksa; GPU varsa faiss-gpu
+tiktoken
+rich            # logging için (opsiyonel)
+PyPDF2
+ollama
+txt
+fastapi
+uvicorn
+numpy
+jinja2
